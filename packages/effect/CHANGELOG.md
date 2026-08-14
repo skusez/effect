@@ -1,5 +1,17 @@
 # effect
 
+## 4.0.0-rc.110
+
+### Patch Changes
+
+- [#7200](https://github.com/Effect-TS/effect/pull/7200) [`f064121`](https://github.com/Effect-TS/effect/commit/f0641210f960563f813ac6f728804e5447c03341) Thanks @mikearnaldi! - Support narrowing schedule input and output types with type guard predicates passed to `Schedule.while`.
+
+- [#7244](https://github.com/Effect-TS/effect/pull/7244) [`b660bf0`](https://github.com/Effect-TS/effect/commit/b660bf01d9c427552296cd9e0195e21504f45e1f) Thanks @AnnaSuSu! - Normalize unbounded PubSub replay capacities to positive integers.
+
+- [#7246](https://github.com/Effect-TS/effect/pull/7246) [`7fd79b2`](https://github.com/Effect-TS/effect/commit/7fd79b2cc95973f85b3db43b0cf3c5cb7d2f69c4) Thanks @tim-smart! - Add `Effect.head` for retrieving the first element of an iterable produced by an effect.
+
+- [#7248](https://github.com/Effect-TS/effect/pull/7248) [`4026e2d`](https://github.com/Effect-TS/effect/commit/4026e2dde3b098e70ffb3f1fcddd200176acdefd) Thanks @tim-smart! - Improve tracing performance in span creation and HTTP middleware.
+
 ## 4.0.0-rc.109
 
 ### Patch Changes
